@@ -12,7 +12,7 @@ public class FinchPlusInputDistance {
         System.out.print("Enter distance to move (in cm): ");
         int distance = scanner.nextInt();
 
-        for(int i = 0; i<4; i++){
+        for(int i = 1; i <=4; i++){
             moveForward(finch, distance);
             moveBackward(finch, distance);
             turnRight90(finch)
