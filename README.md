@@ -1,6 +1,6 @@
 # Finch Robot Plus Sign Movement – Java Project
 
-## 📌 Project Goal
+## Project Goal
 
 The goal of this project is to program a Finch robot to move in the shape of a **plus sign ("+")**, with each arm extending a specific distance (e.g., 10 cm) from the center and returning to the origin between movements. The robot should:
 
@@ -15,7 +15,7 @@ This exercise demonstrates basic robot movement control using time-based motion 
 
 ---
 
-## 💡 Approach and Planning
+## Approach and Planning
 
 Since the Finch robot does not have built-in encoders or precise distance measurement tools, we estimate **distance based on time and motor speed**.
 
