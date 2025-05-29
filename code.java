@@ -1,38 +1,42 @@
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;
+import java.util.Scanner;
 
-public class FinchPlusByDistance {
-    final static int SPEED = 100;         // Constant motor speed
-    final static int TIME_PER_CM = 70;    // Approx time (ms) to move 1 cm at SPEED
+public class FinchPlusInputDistance {
+    final static int SPEED = 100;         // Wheel speed
+    final static int TIME_PER_CM = 70;    // ms per centimeter at SPEED
 
     public static void main(String[] args) {
         Finch finch = new Finch();
+        Scanner scanner = new Scanner(System.in);
 
-        int distance = 10;  // Distance in cm for each arm of the "+"
+        System.out.print("Enter distance to move (in cm): ");
+        int distance = scanner.nextInt();
 
-        // Forward and back
+        // Move forward and back
         moveForward(finch, distance);
         moveBackward(finch, distance);
 
-        // Right and back
+        // Right arm
         turnRight90(finch);
         moveForward(finch, distance);
         moveBackward(finch, distance);
-        turnLeft90(finch);  // Reorient
+        turnLeft90(finch);
 
-        // Down and back
+        // Down arm
         turnAround(finch);
         moveForward(finch, distance);
         moveBackward(finch, distance);
-        turnAround(finch);  // Reorient
+        turnAround(finch);
 
-        // Left and back
+        // Left arm
         turnLeft90(finch);
         moveForward(finch, distance);
         moveBackward(finch, distance);
-        turnRight90(finch);  // Reorient
+        turnRight90(finch);
 
         finch.stop();
         finch.quit();
+        scanner.close();
     }
 
     public static void moveForward(Finch f, int cm) {
