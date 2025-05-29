@@ -28,6 +28,5 @@ Since the Finch robot does not have built-in encoders or precise distance measur
 
 We'll use helper functions like:
 
-```java
 moveForward(Finch f, int cm)
-turnLeft90(Finch f)
+turnRight90(Finch f)
