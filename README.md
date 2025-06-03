@@ -28,5 +28,6 @@ Since the Finch robot does not have built-in encoders or precise distance measur
 
 We'll use helper functions like:
 
-'moveForward(Finch f, int cm)'
-'turnRight90(Finch f)'
+`moveForward(Finch f, int cm)`
+`turnRight90(Finch f)`
+
