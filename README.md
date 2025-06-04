@@ -31,3 +31,8 @@ We'll use helper functions like:
 - `moveForward(Finch f, int cm)`
 - `turnRight90(Finch f)`
 
+---
+## Motivation
+
+- My motivation 
+
