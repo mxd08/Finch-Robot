@@ -34,7 +34,7 @@ We'll use helper functions like:
 ---
 
 ### Motivation
-The motivation for this project was to explore how simple movement commands can be combined to form more complex, meaningful patterns. It was a way to challenge ourselves to think spatially and logically, turning basic directional movement into something purposeful.
+The motivation for this project was to explore how simple movement commands can be combined to form more complex, meaningful patterns. It was a way to challenge ourselves to think logically, turning basic directional movement into something purposeful.
 
 ### Puprose
 I wanted to gain a better understanding of how motion and control work together in a physical system. Building this project allowed us to see how movement can be broken down, structured, and repeated with consistency in the real world using java .
