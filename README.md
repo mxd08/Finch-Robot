@@ -41,5 +41,4 @@ I wanted to gain a better understanding of how motion and control work together 
 
 ### Reflection
 I learned how important it is to think carefully about timing, direction, and repetition when working with physical movement. We also realized how helpful it is to organize code into smaller, reusable parts. The project taught us to be patient and precise, since even small miscalculations can lead to noticeable differences in the outcome.
-----
 
