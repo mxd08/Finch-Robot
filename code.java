@@ -15,7 +15,7 @@ public class FinchPlusInputDistance {
         for(int i = 1; i <=4; i++){
             moveForward(finch, distance);
             moveBackward(finch, distance);
-            turnRight90(finch)
+            turnRight90(finch);
         }
         finch.stop();
         finch.quit();
